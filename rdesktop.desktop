@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=rdesktop
+GenericName=rdesktop
+Comment=linux command for remote desktop
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Categories=Application;Network;
+Exec=/usr/local/bin/rdesktop.sh
+
+Terminal=false
+StartupNotify=true
+
+Icon=/usr/share/pixmaps/rdesktop.png
