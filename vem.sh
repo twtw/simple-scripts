@@ -2,7 +2,7 @@
 # vim environment management
 # https://en.wikibooks.org/wiki/Bash_Shell_Scripting[Bash Shell Scripting - Wikibooks, open books for an open world]
 # http://wiki.bash-hackers.org/howto/getopts_tutorial[Small getopts tutorial [Bash Hackers Wiki]]
-# http://wiki.bash-hackers.org/howto/getopts_tutorial[Small getopts tutorial [Bash Hackers Wiki]]
+# https://github.com/alebcay/awesome-shell[alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.]
 
 if ! [[ -d $HOME/VIM ]]; then
   echo 'generate ~/VIM for save settings'
