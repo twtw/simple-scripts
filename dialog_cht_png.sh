@@ -9,7 +9,8 @@ font=$(zenity --height=500 --width=800 --title="選擇字型" --text "請選擇"
   FALSE 楷體 /usr/share/fonts/TTF/ukai.ttc)
 backcolor=$(zenity --title="背景色" --color-selection)
 forecolor=$(zenity --title="前景色" --color-selection)
-echo $text $output $font $backcolor $forecolor
+size=$(zenity --title="圖型大小" --text "設大小 128x128" --entry --entry-text "128x128")
+echo $text $output $font $backcolor $forecolor $size
 
 convert -background "$backcolor" -fill "$forecolor" -font $font \
-       -size 128x128 -gravity center label:"$text" output/$output
+       -size $size -gravity center label:"$text" output/$output
